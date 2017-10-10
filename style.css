@@ -1,14 +1,53 @@
 body {
+    background-image: url(codecode.jpg);
+    background-size: 100%;
+
     background-color: lightblue;
 }
 
 h1 {
-    color: white;
+    color: black;
+    font-size: 50px;
     text-align: center;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
+
+#Name {
+    margin: auto;
+    display: block;
+    width: 400px;
+   
+    background-color: rgb(135, 135, 179);
+    
+}
+
+#Summary {
+    margin: auto;
+    display: block;
+    width: 800px;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    background-color: rgb(135, 135, 179);
+    
 }
 
 p {
     font-family: verdana;
     font-size: 20px;
     text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+    width: 400px;
+    max-width: 75%;
+    height: auto;
+    border-style: solid;
+    /* border-radius: 90%; */
+    border-width: 10px;
+    border-color: black;
 }
